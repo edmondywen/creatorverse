@@ -1,8 +1,14 @@
 #root {
   max-width: 1280px;
+  /* min-width: 1000px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  /* display
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 100%; */
 }
 
 .logo {
@@ -40,3 +46,32 @@
 .read-the-docs {
   color: #888;
 }
+
+/* navbar */
+.headerNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 4vh;
+  grid-row: 1;
+  gap: 20px;
+  justify-content: center;
+  /* position: fixed;
+  top: 5%; */
+}
+
+.headerNav > li{
+  list-style-type: none;
+}
+
+/* outlet */
+.outlet{
+  grid-row: 2;
+  height: 500px;
+}
+
+.root{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+}
+

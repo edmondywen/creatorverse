@@ -6,11 +6,33 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ViewCreator from './pages/ViewCreator.jsx';
+import EditCreator from './pages/EditCreator.jsx';
+import ShowCreators from './pages/ShowCreators.jsx';
+import AddCreator from './pages/AddCreator.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+    children: [
+      {
+        path: "view", 
+        element: <ViewCreator/>
+      },
+      {
+        path: "edit",
+        element: <EditCreator/>
+      },
+      {
+        path: "show",
+        element: <ShowCreators/>
+      },
+      {
+        path: "add",
+        element: <AddCreator/>
+      }
+    ]
   },
 ]);
 
