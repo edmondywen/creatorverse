@@ -29,6 +29,10 @@ const router = createBrowserRouter([
         element: <ShowCreators/>
       },
       {
+        path: "/",
+        element: <ShowCreators/>
+      },
+      {
         path: "add",
         element: <AddCreator/>
       }

@@ -31,7 +31,7 @@ function ShowCreators(){
                 <div>
                     {creators.map(creator => (
                         // eslint-disable-next-line react/jsx-key
-                        <ContentCreator name={creator.name} url={creator.url} description={creator.description}></ContentCreator>
+                        <ContentCreator name={creator.name} url={creator.url} description={creator.description} imgurl={creator.imageURL}></ContentCreator>
                     ))}
                 </div>
             )}
