@@ -1,6 +1,7 @@
 import { supabase } from "../client";
 import { useState, useEffect } from "react";
 import ContentCreator from "../components/ContentCreator";
+import CreatorGallery from "../components/CreatorGallery";
 
 function ShowCreators(){
     const [fetchError, setFetchError] = useState(null)
@@ -28,12 +29,7 @@ function ShowCreators(){
         <div>
             {fetchError && (<p>{fetchError}</p>)}
             {creators && (
-                <div>
-                    {creators.map(creator => (
-                        // eslint-disable-next-line react/jsx-key
-                        <ContentCreator name={creator.name} url={creator.url} description={creator.description} imgurl={creator.imageURL}></ContentCreator>
-                    ))}
-                </div>
+                <CreatorGallery creators={creators}></CreatorGallery>
             )}
         </div>
 
