@@ -1,10 +1,10 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - Creatorverse
 
-Submitted by: **👉🏿 your name here**
+Submitted by: Edmond Wen
 
-About this web app: **👉🏿 app description here**
+About this web app: a simple fullstack web app that allows people to submit short features about their favorite content creators
 
-Time spent: **👉🏿 X** hours
+Time spent: 20 hours
 
 ## Required Features
 
@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 
 <!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
 - [x] **A logical component structure in React is used to create the frontend of the app**
-- [ ] **At least five content creators are displayed on the homepage of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
 - [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [x] **API calls use the async/await design pattern via Axios or fetch()**
 - [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
@@ -52,7 +52,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+Copyright 2023 Edmond Wen
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
