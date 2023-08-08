@@ -1,5 +1,5 @@
 import { Outlet, Link, useLocation } from 'react-router-dom'
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
